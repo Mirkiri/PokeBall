@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "CSC",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:redstone"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "S": {
+      "item": "minecraft:stone_button"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "pokeball:pokeball",
+    "count": 1
+  }
+}

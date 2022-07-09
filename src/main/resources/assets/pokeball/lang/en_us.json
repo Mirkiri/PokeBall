@@ -1,0 +1,10 @@
+{
+  "item.pokeball.pokeball": "Poké Ball",
+  "entity.pokeball.pokeball": "Poké Ball",
+  "tooltip.pokeball.stored": "Stored: %s",
+  "tooltip.pokeball.stored_custom_name": "Stored: %s (%s)",
+  "tooltip.pokeball.empty": "Empty",
+  "text.autoconfig.pokeball.title": "Poké Ball",
+  "text.autoconfig.pokeball.option.BLACKLIST": "Black List",
+  "text.autoconfig.pokeball.option.allowCaptureOfAllTypes": "Allow capture of all types of entities"
+}

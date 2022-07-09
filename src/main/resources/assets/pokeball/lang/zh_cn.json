@@ -1,0 +1,10 @@
+{
+  "item.pokeball.pokeball": "精灵球",
+  "entity.pokeball.pokeball": "精灵球",
+  "tooltip.pokeball.stored": "存储: %s",
+  "tooltip.pokeball.stored_custom_name": "存储: %s (%s)",
+  "tooltip.pokeball.empty": "空",
+  "text.autoconfig.pokeball.title": "精灵球",
+  "text.autoconfig.pokeball.option.BLACKLIST": "黑名单列表",
+  "text.autoconfig.pokeball.option.allowCaptureOfAllTypes": "允许捕捉所有类型实体"
+}
