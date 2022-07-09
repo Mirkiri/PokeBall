@@ -1,5 +1,6 @@
 package net.mirkiri.pokeball.item;
 
+import net.minecraft.text.TranslatableText;
 import net.mirkiri.pokeball.PokeballMod;
 import net.mirkiri.pokeball.entity.PokeballEntity;
 import net.mirkiri.pokeball.util.NBTHelper;
@@ -63,16 +64,16 @@ public class PokeballItem extends Item {
                 try {
                     MutableText customName = Text.Serializer.fromJson(stored.getString("CustomName"));
                     customName.formatted(Formatting.BLUE, Formatting.ITALIC);
-                    tooltip.add(Text.translatable("tooltip.pokeball.stored_custom_name", customName, Text.translatable(entityName).formatted(Formatting.AQUA)));
+                    tooltip.add(new TranslatableText("tooltip.pokeball.stored_custom_name", customName, new TranslatableText(entityName).formatted(Formatting.AQUA)));
                 } catch (Exception exception) {
                     PokeballMod.LOGGER.warn("Failed to parse entity custom name {}", s, exception);
-                    tooltip.add(Text.translatable("tooltip.pokeball.stored", Text.translatable(entityName).formatted(Formatting.AQUA)));
+                    tooltip.add(new TranslatableText("tooltip.pokeball.stored", new TranslatableText(entityName).formatted(Formatting.AQUA)));
                 }
             } else {
-                tooltip.add(Text.translatable("tooltip.pokeball.stored", Text.translatable(entityName).formatted(Formatting.AQUA)));
+                tooltip.add(new TranslatableText("tooltip.pokeball.stored", new TranslatableText(entityName).formatted(Formatting.AQUA)));
             }
         } else {
-            tooltip.add(Text.translatable("tooltip.pokeball.empty").formatted(Formatting.GRAY));
+            tooltip.add(new TranslatableText("tooltip.pokeball.empty").formatted(Formatting.GRAY));
         }
     }
 }

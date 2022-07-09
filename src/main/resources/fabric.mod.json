@@ -3,13 +3,12 @@
   "id": "pokeball",
   "version": "1.0.0",
   "name": "PokeBall",
-  "description": "Capture your favorite mob with the Pokeball!",
+  "description": "Capture your favorite mob with the pokeball!",
   "authors": [
     "Mirkiri"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pokeball",
-    "issues": "https://github.com/Mirkiri/PokeBall/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/pokeball"
   },
 
   "license": "GNU General Public License Version 3",
@@ -27,10 +26,10 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "1.18.x",
     "java": ">=17",
-    "cloth-config2": ">=7.0.72"
+    "cloth-config2": ">=6.2.57"
   }
 }
